@@ -4,6 +4,10 @@
     background: #000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     position: fixed;
     top: 0;
