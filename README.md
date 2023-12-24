@@ -13,7 +13,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 ## Demo
 
-You can check out the live demo of my portfolio [here](#https://llbasull.github.io/portfolio/).
+You can check out the live demo of my portfolio [here](https://llbasull.github.io/portfolio/).
 
 ![Portfolio Screenshot](/src/images/screenshots_portfolio/Screenshot%20(66).png)
 ![Portfolio Screenshot](/src/images/screenshots_portfolio/Screenshot%20(68).png)
