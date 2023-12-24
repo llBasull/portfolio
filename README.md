@@ -34,7 +34,7 @@ You can check out the live demo of my portfolio [here](https://llbasull.github.i
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/llbasull/portfolio.git
 
 Certainly! Below is a simple example of a README.md file for a portfolio made using HTML, CSS, and JavaScript. You can customize it based on your specific portfolio content and structure.
 
