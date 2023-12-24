@@ -1,0 +1,368 @@
+*{
+    margin:0;
+    padding: 0;
+    background: #000;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 18vh;
+}
+
+.navbar-left {
+    margin-left: 5px;
+    display: flex;
+    width: 50%;
+    gap: 2%;
+    align-items: center;
+}
+
+.name p {
+    padding-left: 25px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.name p span{
+    color: red;
+}
+.navbar-right {
+    display: flex;
+    width: 50%;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 25%;
+    font-family: 'Synonym', sans-serif;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    position: relative; 
+    transition: color 0.3s;
+}
+
+
+/* First */
+.first-container{
+    margin-top: 18vh;
+    padding: 5px;
+    background: #000;
+    display: flex;
+    /* height: 78vh; */
+}
+
+.left-part{
+    font-family: 'Clash Display', sans-serif;
+    color: #fff;
+    width: 50%;
+}
+.left-part p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.upper-text{
+    padding-top: 25%;
+}
+.left-part p span{
+    padding-left: 5px;
+    color: red;
+}
+.image-right img{
+    width: 460px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    border: 4px solid red;
+}
+.project-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-button a {
+    border: 1px solid black;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 10px 10px;
+    padding: 10px 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* second */
+
+.second-container {
+    background: #000;
+    width: auto;
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about {
+    padding-top: 16vh;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 55px;
+    padding-bottom: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.inside-second-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.me {
+    width: 48%;
+    padding-left: 10px;
+}
+
+.moving-text {
+    font-family: 'Bespoke Stencil', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 35px;
+}
+.info{
+    padding-top: 12px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info a{
+    color: red;
+    text-decoration: none;
+}
+
+.main-skill-part {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.my-skills-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 35px;
+    width: calc(45% - 15px);
+    padding-bottom:12px;
+}
+.skills-box{
+    display:flex;
+    align-items: center;
+    width: auto;
+}
+
+.skills {
+    border: 2px solid white;
+    border-radius: 10px 10px;
+    color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.skills p{
+    font-size: 20px;
+    font-family: 'Synonym', sans-serif;
+
+}
+
+.contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-button a{
+    border: 1px solid black;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 10px 10px;
+    padding: 10px 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* third */
+
+.third-container{
+    background: #000;
+    width: auto;
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    padding-top: 16vh;
+}
+.projects{
+    /* padding-top: 16vh; */
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 55px;
+    padding-bottom: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+
+.project1{
+    margin-bottom: 35px;
+}
+
+.project1 img{
+    width: 460px;
+    padding:15px 15px;
+    border: red 2px solid;
+    border-radius: 10px 10px;
+}
+
+.left{
+    margin-bottom: 35px;
+    margin-left: 25px;
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+.heading1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 35px;
+    margin-bottom:35px;
+}
+
+.project2{
+    margin-bottom: 35px;
+}
+
+.project2 img{
+    width: 460px;
+    padding: 15px 15px;
+    border: red 2px solid;
+    border-radius: 10px 10px;
+}
+
+.heading2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 35px;
+    margin-bottom:35px;
+}
+
+.project3{
+    margin-bottom: 35px;
+}
+
+.project3 img{
+    width: 460px;
+    padding: 15px 15px;
+    border: red 2px solid;
+    border-radius: 10px 10px;
+}
+
+.heading3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 35px;
+    margin-bottom:35px;
+}
+
+
+.project4{
+    margin-bottom: 35px;
+}
+
+.project4 img{
+    width: 460px;
+    padding:15px 15px;
+    border: red 2px solid;
+    border-radius: 10px 10px;
+}
+.heading4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 35px;
+    margin-bottom:35px;
+}
+
+.inside-project{
+    display: flex;
+}
+
+.right-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.right-button a{
+    border: 1px solid black;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 10px 10px;
+    padding: 10px 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.project-details{
+    font-size: 20px;
+    font-family: 'Synonym', sans-serif;
+}
