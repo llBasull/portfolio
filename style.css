@@ -380,24 +380,24 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100vw;
+        width: 100%;
     }
 
     .navbar-left,
     .navbar-right {
         width: 100%;
         text-align: center;
-        margin: 10px;
+        flex-direction: row;
+        justify-content: center;
     }
     
-        .navbar-links {
-            flex-direction: row;
-            padding-left: 13vw; 
-            gap: 18px; 
-            justify-content: center;
-            align-items: center;
-            margin-top: 10px; 
-        }
+    .navbar-links {
+        flex-direction: row;
+        gap: 18px; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; 
+    }
     
 
     .first-container {
@@ -413,7 +413,7 @@ html {
     }
 
     .image-right img {
-        width: 80%; /* Adjust as needed */
+        width: 80%; 
         border-radius: 50%;
         overflow: hidden;
         padding: 1%;
@@ -424,7 +424,6 @@ html {
     .contact-button,
     .right-button {
         margin-top: 20px;
-        /* padding-bottom: 20px; */
     }
 
     .project-button a,
@@ -435,38 +434,41 @@ html {
 
     .second-container,
     .third-container {
-        /* padding-top: ;  */
         background: #000;
         width: auto;
         color: #fff;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        width: 100vw;
+        width: 100%;
     }
 
     .me{
         width: 100%;
+        margin-left: 5%;
     }
     .main-skill-part {
         width: 100%;
-        padding-left: 5%;
+        /* padding-left: 5%; */
     }
 
     .my-skills-heading {
         display: flex;
         justify-content: center; 
         align-items: center; 
-        font-family: 'Bespoke Stencil', sans-serif;
-        font-size: 35px;
         width: 100%; 
         padding-bottom: 12px;
+        text-align: center;
+    }
+    .my-skills-heading p {
+        display: inline;
     }
 
     .skills-box {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right:5%;
     }
 
     .skills {
@@ -505,8 +507,16 @@ html {
     }
     
     .left {
-        order: -1;
-        width:80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left img {
+        width: 85%;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 1%;
+        border: 4px solid red;
     }
 
     .project-details{
